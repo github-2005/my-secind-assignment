@@ -4,7 +4,7 @@ header{
     background-color: black;
     width: 1140px;
     height: 600px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 12px;
     margin: 0 auto;
     /* display: flex; */
@@ -102,7 +102,7 @@ button{
     height: 70px;
     width: 150px;
     margin-top: 200px;
-    background-color: rgb(53, 34, 34);
+    background-color: rgba(53, 34, 34, 0.598);
     
 }
 .box{
@@ -143,7 +143,7 @@ button{
     color: white;
     height: 70px;
     width: 150px;
-    background-color: rgb(53, 34, 34);
+    background-color: rgba(53, 34, 34, 0.562);
     
 }
 .he-2{
@@ -176,10 +176,12 @@ button{
 .section-1{
     width: 1020px;
     height: 450px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     background-color: black;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    border-radius: 8px;
+    margin-top: 0px;
 }
 .div-1{
     color: white;
@@ -285,12 +287,15 @@ button{
 .section-2{
     width: 1020px;
     height: 450px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     background-color: rgb(45, 42, 42);
-    margin-top: 30px;
+    /* margin-top: 30px; */
     display: flex;
     gap: 200px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 .section-2-a{
     color: white;
@@ -333,10 +338,12 @@ button{
 .section-3{
     width: 1020px;
     height: 510px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     background-color: black;
+    border-radius: 8px;
+    margin-top: 0px;
 }
 .section-3 h2{
     font-size: 35px;
@@ -362,6 +369,7 @@ button{
    
     display: grid;
     grid-template-columns: repeat(3,1fr);
+   
 }
 .img-1{
    width: 220px;
@@ -393,6 +401,145 @@ button{
     width: 300px;
      height: 187px;
 } 
+
+/* section-4 */
+/* section-4 */
+/* section-4 */
+/* section-4 */
+/* section-4 */
+.section-4{
+    height: 120px;
+    width: 450px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: -18px;
+    /* border-radius: 8px; */
+    margin-bottom: 0px;
+    
+}
+.section-4 h2{
+        color: white;
+        font-size: 40px;
+        font-weight: bolder;
+        margin-bottom: 5px;
+}
+.section-4 p{
+    color: rgb(152, 149, 149);
+    margin-top: 2px;
+}
+
+/* section-5 */
+/* section-5 */
+/* section-5 */
+/* section-5 */
+/* section-5 */
+
+.section-5{
+    height: 500px;
+    width: 1240px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background-color: rgb(43, 38, 38);
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.BMI-table h2{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+
+.BMI-table{
+      padding-left: 150px;
+      padding-top: 50px;
+}
+.table th{
+    color: white;
+}
+
+
+.table,td,tr,th{
+    border: 1px solid rgb(80, 77, 77);
+    text-align: center;
+    border-collapse: collapse;
+    color: rgb(151, 146, 146);
+    padding: 10px 40px;
+}
+
+.BMI-Calculator{
+    display: flex;
+    gap: 180px;
+}
+.my-bmi{
+    padding-top: 50px;
+}
+.my-bmi h2{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 0px;
+}
+.my-bmi p{
+    color: rgb(97, 94, 94);
+}
+
+.bmi-button{
+    color: rgb(175, 168, 168);
+    background-color: rgb(82, 79, 79);
+    padding: 12px 140px 12px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    
+}
+.bmi-button-2{
+    color: rgb(175, 168, 168);
+    background-color: rgb(82, 79, 79);
+    padding: 12px 140px 12px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 3px;
+}
+.bmi-button-3{
+    color: rgb(175, 168, 168);
+    background-color: rgb(82, 79, 79);
+    padding: 12px 183px 12px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.bmi-button-4{
+    color: rgb(175, 168, 168);
+    background-color: rgb(82, 79, 79);
+    padding: 12px 183px 12px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.bmi-button-5{
+    color: rgb(175, 168, 168);
+    background-color: rgb(82, 79, 79);
+    padding: 12px 280px 12px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.Calculat-button{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 45px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -454,6 +601,7 @@ button{
     .section-1{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin-top: 10px;
     }
     .section-1{
         height: 1300px;
@@ -575,7 +723,121 @@ button{
         margin-left: -360px;
         
     }
-    
+    /* section-4 */
+    /* section-4 */
+    /* section-4 */
+    /* section-4 */
+    .section-4{
+        width: 300px;
+        
+        
+    }
+    .section-4-{
+        padding-left: 10px;
+    }
+    .section-4 h2{
+        font-size: 30px;
+    }
+
+    /* section-5 */
+     /* section-5 */
+      /* section-5 */
+       /* section-5 */
+    .section-5{
+        width: 300px;
+        height: 730px;
+    }
+    .BMI-Calculator{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .BMI-table{
+        padding-left: 10px;
+        padding-top: 30px;
+        margin-bottom: 0px;
+  }
+  .BMI-table h2{
+           font-size: 25px;
+  }
+  .table th{
+      color: white;
+  }
+  
+  
+  .table,td,tr,th{
+      border: 1px solid rgb(80, 77, 77);
+      text-align: center;
+      border-collapse: collapse;
+      color: rgb(151, 146, 146);
+      padding: 10px 20px;
+  }
+  
+  
+  .my-bmi{
+      margin-top: -220px;
+      padding-left: 10px;
+  }
+  .my-bmi h2{
+      font-size: 25px;
+      font-weight: bolder;
+      color: white;
+      margin-bottom: 0px;
+  }
+  .my-bmi p{
+      color: rgb(97, 94, 94);
+  }
+  
+  .bmi-button{
+      color: rgb(175, 168, 168);
+      background-color: rgb(82, 79, 79);
+      padding: 12px 47px 12px 15px;
+      border-radius: 10px;
+      font-size: 16px;
+      
+  }
+  .bmi-button-2{
+      color: rgb(175, 168, 168);
+      background-color: rgb(82, 79, 79);
+      padding: 12px 47px 12px 15px;
+      border-radius: 10px;
+      font-size: 16px;
+      margin-left: 3px;
+  }
+  .bmi-button-3{
+      color: rgb(175, 168, 168);
+      background-color: rgb(82, 79, 79);
+      padding: 12px 90px 12px 15px;
+      border-radius: 10px;
+      font-size: 16px;
+  }
+  .bmi-button-4{
+      color: rgb(175, 168, 168);
+      background-color: rgb(82, 79, 79);
+      padding: 12px 90px 12px 15px;
+      border-radius: 10px;
+      font-size: 16px;
+      margin-top: 5px;
+      margin-left: 3px;
+  }
+  .bmi-button-5{
+      color: rgb(175, 168, 168);
+      background-color: rgb(82, 79, 79);
+      padding: 12px 95px 12px 15px;
+      border-radius: 10px;
+      font-size: 16px;
+      margin-top: 5px;
+      margin-left: 3px;
+  }
+  .Calculat-button{
+      color: white;
+      background-color: red;
+      font-size: 20px;
+      font-weight: 400;
+      padding: 10px 45px;
+      border-radius: 25px;
+      margin-top: 20px;
+  }
+  
     
 }
 
