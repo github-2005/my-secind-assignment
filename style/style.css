@@ -718,6 +718,7 @@ hr{
     header{
         height: 1010px;
          width: 270px; 
+         
     }
     .navber{
         gap: 10px;
@@ -857,6 +858,7 @@ hr{
     
     .img-1{
         width: 150px;
+        background-image: none;
     }
     .img-2{
         width: 150px;
